@@ -1,0 +1,29 @@
+scomm - secure communication
+=============================
+scomm is a simple end-to-end encrypted communication tool.  You can 
+send files and messages to connected peers. Commands are taken from stdin 
+and server responses output to stdout.  Errors to stderr.
+
+
+Commands
+----------
+To connect to someone else running scomm: ":c <ip of peer>:<port of peer>"
+
+To see active connections: ":i"
+
+To send message: ":m @name1,name2,...,namek Helllllllllllloooooo!"
+
+To send file: ":f @name /path/to/local/file"
+
+To quit: ":q"
+
+
+
+Installation
+------------
+'make' should do it
+
+
+Running scomm
+-----------
+Simply invoke the 'scomm' command with the required arguments.
